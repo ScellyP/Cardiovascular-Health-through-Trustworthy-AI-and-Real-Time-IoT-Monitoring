@@ -21,15 +21,6 @@
 //      D1/GPIO5 (ESP TX) → Arduino D3  direct
 //      3.3V              → 3.3V
 //      GND               → GND
-//
-//  NOTE: Arduino D2 → ESP RX needs a voltage divider:
-//        Arduino D2 → 1kΩ → ESP D2(GPIO4)
-//                                |
-//                               2kΩ
-//                                |
-//                               GND
-// ================================================================
-
 #include <SoftwareSerial.h>
 
 // ── Pin definitions ──────────────────────────────────────────────
