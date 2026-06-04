@@ -7,8 +7,8 @@
 #include <WiFiClientSecureBearSSL.h>
 #include <ArduinoJson.h>
 
-const char* WIFI_SSID     = "";
-const char* WIFI_PASSWORD = "";
+const char* WIFI_SSID     = ""; // Your wifi Name goes here
+const char* WIFI_PASSWORD = ""; // Your Wifi password goes here
 
 const char* GEMINI_API_KEY = "AQ.Ab8RN6L6TTJmfESS90s46Ng8kZqonJuxxUkCGaayEa69TwXgNw";
 
